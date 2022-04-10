@@ -1,0 +1,13 @@
+package com.shail.i189;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class InternationalizationDemoApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

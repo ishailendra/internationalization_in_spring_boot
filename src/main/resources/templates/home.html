@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{title}">Internationalization Demo</title>
+    <style>
+        div{
+  font-size: 2rem;
+}
+span {
+  font-size: 1.25rem;
+}
+
+.one {
+  display: inline-flex;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6;
+    text-decoration:none;
+    cursor:pointer;
+}
+.para {
+  font-size: 1.25rem;
+}
+
+.btn {
+  background: none;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+<div class="one">
+    <a class="one" href="https://www.akskr.com" target="_blank">
+        <div>A<span>PNE</span></div>
+        <div>K<span>AAM</span></div>
+        <div>S<span>E</span></div>
+        <div>K<span>AAM</span></div>
+        <div>R<span>AKHO</span></div>
+    </a>
+</div>
+<br>
+<br>
+<div th:text="#{message}" class="para"></div>
+
+<br>
+<br>
+<br>
+<button type="button" th:text="#{lang-en}" onclick="window.location.href='http://localhost:8080/?lang=en'"
+        class="btn"></button>
+<button type="button" th:text="#{lang-es}" onclick="window.location.href='http://localhost:8080/?lang=es'"
+        class="btn"></button>
+</body>
+</html>
