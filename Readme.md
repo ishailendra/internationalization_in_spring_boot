@@ -5,5 +5,4 @@ Because we are living in an era of globalization and we want to make our applica
 
 ### Learn about the techincalities of implementing [Internationalization in Spring Boot](https://blog.shailendra.dev/internationalization-in-spring-boot).
 
-![i189.png](https://github.com/ishailendra/
-internationalization_in_spring_boot/blob/main/i189.png)
+![i189.png](https://github.com/ishailendra/internationalization_in_spring_boot/blob/main/i189.png)
