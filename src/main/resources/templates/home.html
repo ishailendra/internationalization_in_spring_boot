@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title data-th-text="#{msg.title}"></title>
+</head>
+<body style="background-color:azure">
+
+<h1 data-th-text="#{msg.form_title}"></h1>
+
+<form action="/submit-form" method="post">
+    <label for="name" data-th-text="#{msg.name}"></label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email" data-th-text="#{msg.email}"></label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message" data-th-text="#{msg.message}"></label>
+    <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+<br/>
+<div id="language-buttons">
+    <a href="?lang=en">English</a> |
+    <a href="?lang=fr">Français</a> |
+    <a href="?lang=es">Español</a>
+</div>
+
+</body>
+</html>
